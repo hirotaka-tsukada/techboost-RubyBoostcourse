@@ -1,0 +1,150 @@
+body {
+  background-color: #efefef;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.background {
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+  width: 800px;
+  padding: 8px 0;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  color: black;
+}
+
+.header-navigation {
+  width: auto;
+  height: 50px;
+  background-color: #333;
+}
+.header-navigation::after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+
+.header-navigation li {
+  float: left;
+  padding: 15px 30px;
+}
+
+.header-navigation li a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.left-contents {
+  padding-left: 30px;
+  padding-right: 10px;
+  float: left;
+}
+
+.left-post {
+  margin-top: 35px;
+  margin-bottom: 90px;
+  width: 470px;
+}
+
+.left-picture {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.left-others {
+  width: 470px;
+  height: 100px;
+
+}
+
+.left-date {
+  color: #777;
+  font-size: small;
+}
+
+.left-link {
+  font-size: medium;
+  color: #00ccff;
+}
+
+.left-sentens {
+  font-size: x-small;
+}
+
+.right-contents {
+  float: left;
+  margin-top: 13px;
+  margin-right: 13px;
+  margin-left: 15px
+}
+
+.right-contents-title {
+  font-size: large;
+  padding-bottom: 10px;
+  color: #777;
+  border-bottom: solid;
+  border-bottom-color: #777;
+}
+
+.right-post {
+  clear: left;
+  margin-inline-end: 67px;
+}
+
+.right-picture {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.right-others {
+  float: left;
+}
+
+.right-date {
+  color: #777;
+  font-size: smaller;
+  margin-top: 0px;
+  margin-bottom: 1px;
+}
+
+.right-link {
+  color: #00ccff;
+  font-size: smaller;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.copyright {
+  clear: both;
+  color: rgb(146, 146, 146);
+  text-align: center;
+  border-top: solid;
+  border-top-color: rgb(146, 146, 146);
+  padding-top: 20px;
+  margin-inline-start: 30px;
+  margin-inline-end: 30px;
+}
+
+
